@@ -1,0 +1,6 @@
+*.cmi
+*.cmo
+*.cmx
+.vscode/settings.json
+parser.ml
+parser.mli

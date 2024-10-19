@@ -11,7 +11,7 @@ lexer.ml: lexer.mll
 	ocamllex lexer.mll
 
 parser.ml parser.mli: parser.mly
-	menhir --explain parser.mly
+	menhir --explain --infer parser.mly
 
 type.cmo: type.ml
 	ocamlc -c $(FLAGS) type.ml
